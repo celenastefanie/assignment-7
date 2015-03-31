@@ -8,18 +8,68 @@ html {
 }
 
 .header {
-  background-image: url("../images/logo.svg"), url("../images/logo.svg");
+  background-image: url("../images/logo.svg"), url("../images/logo.svg"), url("../images/pattern.png");
   background-size: 40px auto;
-  background-repeat: no-repeat;
-  background-position: left center, right center;
+  background-repeat: no-repeat, no-repeat, repeat;
+  background-position: left center, right center, left;
   text-align: center;
   font-family: 'Dosis', sans-serif;
   font-size: 1.5em;
+  padding: .5em;
+  margin: .5em, .5em, 0em;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
 }
 
 nav {
   font-family: 'Dosis', sans-serif;
-  font-size: 1.5em;
+  font-size: 20px;
   text-decoration: none;
   list-style-type: none;
+  overflow: hidden;
+
+}
+
+li {
+  display: block;
+  text-align: center;
+  padding: 7px 7px;
+  background-color: #998675;
+  color: black;
+  margin: 0;
+  float: left;
+  width: 25%;
+}
+
+li:hover {
+  background-color: #754C24;
+}
+
+nav ul {
+  padding: 0;
+  list-style-type: none;
+}
+.g-image {
+  width: 100%;
+}
+
+.ground {
+  position: relative;
+
+}
+
+h2 {
+  position: absolute;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.5em;
+  color: white;
+  text-align: center;
+  display: block; 
 }
