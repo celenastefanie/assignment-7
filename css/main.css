@@ -13,14 +13,13 @@ img {
 
 .header {
   background-image: url("../images/logo.svg"), url("../images/logo.svg"), url("../images/pattern.png");
-  background-size: 40px auto;
+  background-size: 40px auto, 40px auto, 100px;
   background-repeat: no-repeat, no-repeat, repeat;
   background-position: left center, right center, left;
   text-align: center;
   font-family: 'Dosis', sans-serif;
   font-size: 1.5em;
   padding: .5em;
-  margin: .5em, .5em, 0em;
 }
 
 a {
@@ -86,12 +85,14 @@ h2 {
   display: inline-block;
   position: relative;
   margin-bottom: 0em;
+  background-color: #998675;
 
 }
 
 .bottom {
   display: inline-block;
   position: relative;
+  background-color: #998675;
 }
 
 
@@ -109,10 +110,10 @@ h2 {
   background-color: #8CC63F;
   padding: .5em 1em;
   font-family: 'Dosis', sans-serif;
-  font-size: 1.5em;
+  font-size: 1em;
   background-image: linear-gradient(to bottom, #8CC63F, #009245);
   position: absolute;
-  left: 10%;
+  left: 15%;
   bottom: 5%;
 }
 
@@ -133,7 +134,7 @@ h2 {
   background-color: #8CC63F;
   padding: .5em 1em;
   font-family: 'Dosis', sans-serif;
-  font-size: 1.5em;
+  font-size: 1em;
   background-image: linear-gradient(to bottom, #8CC63F, #009245);
   position: absolute;
   right: 15%;
@@ -150,7 +151,7 @@ h2 {
   background-color: #8CC63F;
   padding: .5em 1em;
   font-family: 'Dosis', sans-serif;
-  font-size: 1.5em;
+  font-size: 1em;
   background-image: linear-gradient(to bottom, #8CC63F, #009245);
   position: absolute;
   left: 15%;
@@ -175,10 +176,10 @@ h2 {
   background-color: #8CC63F;
   padding: .5em 1em;
   font-family: 'Dosis', sans-serif;
-  font-size: 1.5em;
+  font-size: 1em;
   background-image: linear-gradient(to bottom, #8CC63F, #009245);
   position: absolute;
-  right: 10%;
+  right: 15%;
   bottom: 5%;
 }
 
