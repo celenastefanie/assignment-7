@@ -37,7 +37,6 @@ nav {
   text-decoration: none;
   list-style-type: none;
   overflow: hidden;
-
 }
 
 li {
@@ -63,10 +62,8 @@ nav ul {
 .ground {
   position: relative;
   margin-bottom: 0;
-}
-
-.g-image {
   width: 100%;
+  text-align: center;
 }
 
 h2 {
@@ -85,6 +82,7 @@ h2 {
   display: inline-block;
   position: relative;
   margin-bottom: 0em;
+  margin-top: 0em;
   background-color: #998675;
 
 }
@@ -120,6 +118,7 @@ h2 {
 .button-ant:hover {
   color: #754C24;
 }
+
 .beetle-stag {
   margin: 0;
   float: right;
